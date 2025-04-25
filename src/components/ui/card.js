@@ -1,10 +1,10 @@
 const Card = ({ children, ...props }) => {
     return <div {...props}>{children}</div>;
-};
-
-Card.Header = ({ children, ...props }) => <div {...props}>{children}</div>;
-Card.Body = ({ children, ...props }) => <div {...props}>{children}</div>;
-Card.Title = ({ children, ...props }) => <div {...props}>{children}</div>;
-Card.Description = ({ children, ...props }) => <div {...props}>{children}</div>;
-
-export { Card };
+  };
+  
+  const CardHeader = ({ children, ...props }) => <div {...props}>{children}</div>;
+  const CardContent = ({ children, ...props }) => <div {...props}>{children}</div>;
+  const CardTitle = ({ children, ...props }) => <div {...props}>{children}</div>;
+  const CardDescription = ({ children, ...props }) => <div {...props}>{children}</div>;
+  
+  export { Card, CardHeader, CardContent, CardTitle, CardDescription };

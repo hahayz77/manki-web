@@ -42,7 +42,9 @@ Este plano de execução detalha os passos necessários para desenvolver o Manki
 2.  **Criar a Estrutura Básica da Interface:**
 
     * ✅ Definir as páginas principais (estudo, baralhos, configurações).
-        * Baralhos (página inicial), Estudo, Painel
+        * Baralhos (home)
+        * Estudo
+        * Painel
     * [ ] Criar componentes reutilizáveis (cartões, botões, etc.).
 
 3.  **Implementar a Lógica de Estudo Simples:**
