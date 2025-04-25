@@ -36,12 +36,12 @@ Este plano de execução detalha os passos necessários para desenvolver o Manki
 
 1.  **Configurar o Ambiente de Desenvolvimento:**
 
-    * [x] Escolher um framework frontend (React, Vue, etc.).
-    * [x] Configurar o ambiente de desenvolvimento com as ferramentas necessárias (Node.js, npm/yarn, etc.).
+    * ✅ Escolher um framework frontend (React, Vue, etc.).
+    * ✅ Configurar o ambiente de desenvolvimento com as ferramentas necessárias (Node.js, npm/yarn, etc.).
 
 2.  **Criar a Estrutura Básica da Interface:**
 
-    * [x] Definir as páginas principais (estudo, baralhos, configurações).
+    * ✅ Definir as páginas principais (estudo, baralhos, configurações).
         * Baralhos (página inicial), Estudo, Painel
     * [ ] Criar componentes reutilizáveis (cartões, botões, etc.).
 
