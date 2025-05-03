@@ -124,13 +124,13 @@ const DeckList = () => {
                 <div className="mt-6 flex gap-4">
                     {" "}
                     {/* Added flex and gap */}
-                    <Button className="cursor-pointer bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-md shadow-lg transition-colors duration-300 flex-1">
+                    <Button as="a" href="/card/new" className="cursor-pointer bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-md shadow-lg transition-colors duration-300 flex-1">
                         {" "}
                         {/* Added flex-1 */}
                         <FaPlusCircle className="mr-2 w-5 h-5" />
-                        Criar Baralho
+                        Criar Cartão
                     </Button>
-                    <Button className="cursor-pointer bg-gray-700 hover:bg-gray-600 text-white font-semibold px-6 py-3 rounded-md shadow-lg transition-colors duration-300 flex-1">
+                    <Button as="a" href="/dashboard" className="cursor-pointer bg-gray-700 hover:bg-gray-600 text-white font-semibold px-6 py-3 rounded-md shadow-lg transition-colors duration-300 flex-1">
                         {" "}
                         {/* Added new button and flex-1 */}
                         <FiGrid className="mr-2 w-5 h-5" />

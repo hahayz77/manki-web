@@ -1,9 +1,7 @@
-import { Input as NextUIInput } from '@heroui/react';
+import { Input as NextUIInput } from "@heroui/react";
 
 const Input = ({ ...props }) => {
-  return (
-    <NextUIInput {...props} />
-  );
+    return <NextUIInput {...props} />;
 };
 
 export { Input };
